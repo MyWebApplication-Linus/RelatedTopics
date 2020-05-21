@@ -808,3 +808,78 @@ element {
 .height-35 {
     height: 35px;
 }
+/* Todo:
+Make the menu open and close from the button
+Add an indicator that the menu is open or closed (Maybe a little arrow?)
+Make the replies dynamically move down when the menu is opened 
+Add smooth animations */
+
+
+/* Set #reply-tweet and #reply-2 to add a certain amount of pixels to their position through styling*/
+/* Current styling (done in HTML):  
+	Reply 1(#reply-tweet):
+	style="position: absolute; width: 100%; transform: translateY(415px); transition: opacity 0.3s ease-out 0s;"
+
+	Reply 2(#reply-2):
+	style="position: absolute; width: 100%; transform: translateY(510px); transition: opacity 0.3s ease-out 0s;"
+*/
+
+/* Related Topics button */
+
+.related-topics-button{
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.stats-container{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.stats-and-related-topics-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.smaller-padding{
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+/* Topics dropdown related styling */
+.topics-dropdown{
+	background-color: red;
+	height: 64px;
+	border-top: 1px;
+}
+
+.row-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	align-items: center;
+}
+
+/* Each clickable topic */
+
+.button{
+	height: 35px;
+	width: 110px;
+	background-color: white;
+	border-radius: 20px;
+	border: 1px solid rgb(27, 149, 224);
+}
+
+
